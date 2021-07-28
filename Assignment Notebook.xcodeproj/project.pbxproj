@@ -11,6 +11,8 @@
 		FB02E64726B1C4F2009A5049 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02E64626B1C4F2009A5049 /* ContentView.swift */; };
 		FB02E64926B1C4F3009A5049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB02E64826B1C4F3009A5049 /* Assets.xcassets */; };
 		FB02E64C26B1C4F3009A5049 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB02E64B26B1C4F3009A5049 /* Preview Assets.xcassets */; };
+		FB02E65426B1CDA1009A5049 /* AssignmentNotebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02E65326B1CDA1009A5049 /* AssignmentNotebook.swift */; };
+		FB02E65826B1ECF9009A5049 /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02E65726B1ECF9009A5049 /* AddAssignmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FB02E64826B1C4F3009A5049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB02E64B26B1C4F3009A5049 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB02E64D26B1C4F3009A5049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB02E65326B1CDA1009A5049 /* AssignmentNotebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentNotebook.swift; sourceTree = "<group>"; };
+		FB02E65726B1ECF9009A5049 /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		FB02E64326B1C4F2009A5049 /* Assignment Notebook */ = {
 			isa = PBXGroup;
 			children = (
+				FB02E65726B1ECF9009A5049 /* AddAssignmentView.swift */,
 				FB02E64426B1C4F2009A5049 /* Assignment_NotebookApp.swift */,
 				FB02E64626B1C4F2009A5049 /* ContentView.swift */,
+				FB02E65326B1CDA1009A5049 /* AssignmentNotebook.swift */,
 				FB02E64826B1C4F3009A5049 /* Assets.xcassets */,
 				FB02E64D26B1C4F3009A5049 /* Info.plist */,
 				FB02E64A26B1C4F3009A5049 /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				FB02E64726B1C4F2009A5049 /* ContentView.swift in Sources */,
 				FB02E64526B1C4F2009A5049 /* Assignment_NotebookApp.swift in Sources */,
+				FB02E65426B1CDA1009A5049 /* AssignmentNotebook.swift in Sources */,
+				FB02E65826B1ECF9009A5049 /* AddAssignmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

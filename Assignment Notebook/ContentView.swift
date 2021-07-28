@@ -12,11 +12,15 @@ struct ContentView: View {
             [AssignmentItem(course: "Computer Science", description: "Description", dueDate: Date()),
              AssignmentItem(course: "Math", description: "Description", dueDate: Date()),
              AssignmentItem(course: "English", description: "Description", dueDate: Date())]
-
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        NavigationView {
+            List {
+                ForEach(assignmentItems) { item in
+                    Text(item.description)
+                }
+            }
+            .navigationBarTitle("Assignments", displayMode: .inline)
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var assignmentItems =
+            [AssignmentItem(course: "Computer Science", description: "Description", dueDate: Date()),
+             AssignmentItem(course: "Math", description: "Description", dueDate: Date()),
+             AssignmentItem(course: "English", description: "Description", dueDate: Date())]
+
     var body: some View {
         Text("Hello, world!")
             .padding()

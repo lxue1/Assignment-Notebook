@@ -20,6 +20,7 @@ struct AddAssignmentView: View {
                 Picker("Course", selection: $course) {
                     ForEach(Self.courses, id: \.self) { course in
                         Text(course)
+                            .foregroundColor(.red)
                     }
                 }
                 TextField("Description", text: $description)

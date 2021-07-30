@@ -19,19 +19,15 @@ struct ContentView: View {
                             Text(item.course)
                                 .foregroundColor(Color.blue)
                                 .bold()
-                                .border(Color.blue, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                                 .font(.headline)
                             Text(item.description)
                                 .foregroundColor(Color.red)
-                                .border(Color.red, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                         }
                         Spacer()
                         Text(item.dueDate, style: .date)
                             .foregroundColor(Color.red)
-                            .border(Color.red, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                     }
-                    Color.red.edgesIgnoringSafeArea(.all)
-                }
+            }
                 .onMove(perform: { indices, newOffset in
                     assignmentList.items.move(fromOffsets: indices, toOffset: newOffset)
                 })

@@ -34,7 +34,6 @@ struct ContentView: View {
                 .onDelete(perform: { indexSet in
                     assignmentList.items.remove(atOffsets: indexSet)
                 })
-                .listRowBackground(Color.green)
             }
             .sheet(isPresented: $showingAddAssignmentView, content: {
                 AddAssignmentView(assignmentList: assignmentList)
